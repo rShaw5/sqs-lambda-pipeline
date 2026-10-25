@@ -73,3 +73,7 @@ Run `terraform destroy` afterwards so nothing keeps running.
 | [pipeline/](pipeline/) | Validation, duplicate handling, the Lambda handler, the fake-data generator, and the send-and-judge script. |
 | [terraform/](terraform/) | The queue, dead-letter queue, table, log group, IAM role and Lambda. |
 | [tests/](tests/) | 34 tests covering the rules, the handler's failure paths and the run judge. |
+
+## About the author
+
+Built by Robin Shaw, a backend engineer. More of my work is on [my portfolio](https://rshaw5.github.io) and [GitHub](https://github.com/rShaw5), and the best way to reach me is [LinkedIn](https://www.linkedin.com/in/rshaw5/).
