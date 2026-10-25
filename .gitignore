@@ -1,0 +1,19 @@
+# Terraform
+.terraform/
+terraform/.build/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+*.tfplan
+tfplan
+crash.log
+crash.*.log
+.terraform.tfstate.lock.info
+
+# Secrets
+.env
+.env.*
+
+# macOS
+.DS_Store
